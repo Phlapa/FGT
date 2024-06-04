@@ -13,7 +13,7 @@ def read_excel_file(file_name):
         return None
 
 # Nome do arquivo Excel
-file_name = 'FGT.xlsx'
+file_name = 'FGT - Controle Audiência Aulas Ao Vivo.xlsx'
 
 # Chamada da função com o nome do arquivo como argumento
 df = read_excel_file(file_name)
