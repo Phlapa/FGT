@@ -1,14 +1,5 @@
 import pandas as pd
 
-# Supondo que o arquivo esteja no mesmo diretório que seu script Python
-def read_excel_file('FGT.xlsx'):
-    try:
-        data = pd.read_excel('FGT.xlsx')
-        print("Arquivo lido com sucesso!")
-        return data
-    except Exception as e:
-        print(f"Erro ao ler o arquivo: {e}")
-
 # Nome do arquivo
 file_name = 'FGT.xlsx'
 
