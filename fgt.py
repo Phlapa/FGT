@@ -3,9 +3,6 @@ import pandas as pd
 # Nome do arquivo
 file_name = 'FGT.xlsx'
 
-# Chamada da função
-df = read_excel_file('FGT.xlsx')
-
 # Caso queira visualizar as primeiras linhas do DataFrame
 if df is not None:
     print(df.head())
