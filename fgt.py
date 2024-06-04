@@ -3,10 +3,6 @@ import pandas as pd
 # Nome do arquivo
 file_name = 'FGT.xlsx'
 
-# Caso queira visualizar as primeiras linhas do DataFrame
-if df is not None:
-    print(df.head())
-import pandas as pd
 import matplotlib.pyplot as plt
 
 # Caminho do arquivo
