@@ -2,7 +2,6 @@ import pandas as pd
 
 # Supondo que o arquivo esteja no mesmo diretório que seu script Python
 def read_excel_file('FGT.xlsx'):
-    """Função para ler um arquivo Excel e retornar um DataFrame."""
     try:
         data = pd.read_excel('FGT.xlsx')
         print("Arquivo lido com sucesso!")
